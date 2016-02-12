@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6EE23B811C67B6CF005FE3E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE23B801C67B6CF005FE3E4 /* AppDelegate.swift */; };
-		6EE23B831C67B6CF005FE3E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE23B821C67B6CF005FE3E4 /* ViewController.swift */; };
+		6EE23B831C67B6CF005FE3E4 /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE23B821C67B6CF005FE3E4 /* PlaylistMasterViewController.swift */; };
 		6EE23B861C67B6CF005FE3E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE23B841C67B6CF005FE3E4 /* Main.storyboard */; };
 		6EE23B881C67B6CF005FE3E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE23B871C67B6CF005FE3E4 /* Assets.xcassets */; };
 		6EE23B8B1C67B6CF005FE3E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE23B891C67B6CF005FE3E4 /* LaunchScreen.storyboard */; };
 		6EE23B961C67B6CF005FE3E4 /* algorhythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE23B951C67B6CF005FE3E4 /* algorhythmTests.swift */; };
 		6EE23BA11C67B6CF005FE3E4 /* algorhythmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE23BA01C67B6CF005FE3E4 /* algorhythmUITests.swift */; };
+		6EE23BAF1C67BA78005FE3E4 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE23BAE1C67BA78005FE3E4 /* PlaylistDetailViewController.swift */; };
+		6EE23BB11C6954AD005FE3E4 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE23BB01C6954AD005FE3E4 /* MusicLibrary.swift */; };
+		6EE23BB31C6955CB005FE3E4 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE23BB21C6955CB005FE3E4 /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		6EE23B7D1C67B6CF005FE3E4 /* algorhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algorhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE23B801C67B6CF005FE3E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EE23B821C67B6CF005FE3E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EE23B821C67B6CF005FE3E4 /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
 		6EE23B851C67B6CF005FE3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EE23B871C67B6CF005FE3E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EE23B8A1C67B6CF005FE3E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		6EE23B9C1C67B6CF005FE3E4 /* algorhythmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = algorhythmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE23BA01C67B6CF005FE3E4 /* algorhythmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = algorhythmUITests.swift; sourceTree = "<group>"; };
 		6EE23BA21C67B6CF005FE3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EE23BAE1C67BA78005FE3E4 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		6EE23BB01C6954AD005FE3E4 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		6EE23BB21C6955CB005FE3E4 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				6EE23B801C67B6CF005FE3E4 /* AppDelegate.swift */,
-				6EE23B821C67B6CF005FE3E4 /* ViewController.swift */,
+				6EE23B821C67B6CF005FE3E4 /* PlaylistMasterViewController.swift */,
+				6EE23BAE1C67BA78005FE3E4 /* PlaylistDetailViewController.swift */,
 				6EE23B841C67B6CF005FE3E4 /* Main.storyboard */,
+				6EE23BB01C6954AD005FE3E4 /* MusicLibrary.swift */,
+				6EE23BB21C6955CB005FE3E4 /* Playlist.swift */,
 				6EE23B871C67B6CF005FE3E4 /* Assets.xcassets */,
 				6EE23B891C67B6CF005FE3E4 /* LaunchScreen.storyboard */,
 				6EE23B8C1C67B6CF005FE3E4 /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EE23B831C67B6CF005FE3E4 /* ViewController.swift in Sources */,
+				6EE23BAF1C67BA78005FE3E4 /* PlaylistDetailViewController.swift in Sources */,
+				6EE23B831C67B6CF005FE3E4 /* PlaylistMasterViewController.swift in Sources */,
 				6EE23B811C67B6CF005FE3E4 /* AppDelegate.swift in Sources */,
+				6EE23BB11C6954AD005FE3E4 /* MusicLibrary.swift in Sources */,
+				6EE23BB31C6955CB005FE3E4 /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
